@@ -13,6 +13,7 @@
 		A1FBB1121FC7C06B00EC3F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FBB1111FC7C06B00EC3F8A /* Assets.xcassets */; };
 		A1FBB1151FC7C06B00EC3F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FBB1131FC7C06B00EC3F8A /* LaunchScreen.storyboard */; };
 		A1FBB1181FC7C06B00EC3F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FBB1171FC7C06B00EC3F8A /* main.m */; };
+		A1FBB1201FC7C08000EC3F8A /* XJSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FBB11F1FC7C08000EC3F8A /* XJSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A1FBB1141FC7C06B00EC3F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1FBB1161FC7C06B00EC3F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1FBB1171FC7C06B00EC3F8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1FBB11E1FC7C08000EC3F8A /* XJSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJSwitch.h; sourceTree = "<group>"; };
+		A1FBB11F1FC7C08000EC3F8A /* XJSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		A1FBB1071FC7C06B00EC3F8A /* XJSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				A1FBB11E1FC7C08000EC3F8A /* XJSwitch.h */,
+				A1FBB11F1FC7C08000EC3F8A /* XJSwitch.m */,
 				A1FBB1081FC7C06B00EC3F8A /* AppDelegate.h */,
 				A1FBB1091FC7C06B00EC3F8A /* AppDelegate.m */,
 				A1FBB10B1FC7C06B00EC3F8A /* ViewController.h */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1FBB10D1FC7C06B00EC3F8A /* ViewController.m in Sources */,
+				A1FBB1201FC7C08000EC3F8A /* XJSwitch.m in Sources */,
 				A1FBB1181FC7C06B00EC3F8A /* main.m in Sources */,
 				A1FBB10A1FC7C06B00EC3F8A /* AppDelegate.m in Sources */,
 			);
