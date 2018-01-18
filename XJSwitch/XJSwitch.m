@@ -275,7 +275,4 @@ NSString * const BackgroundColorAnimationKey = @"BackgroundColorAnimationKey";
     return colorAnimation;
 }
 
-
-
-
 @end
